@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!--
+GAE��SSO�p��ǉ��ݒ�
+-->
+<Ucf>
+
+	<CompilerPath><![CDATA[D:\SATERAITO_PROJECT\BatchFileCompiler\closure-compiler-v20220502.jar]]></CompilerPath>
+
+	<!-- WHITESPACE_ONLY,SIMPLE_OPTIMIZATIONS -->
+	<CompilationLevel><![CDATA[SIMPLE_OPTIMIZATIONS]]></CompilationLevel>
+	<ScriptSourceFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\script\debug\]]></ScriptSourceFolderPath>
+	
+	<ScriptOutputFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\script\]]></ScriptOutputFolderPath>
+
+	<DatFolderPath><![CDATA[dat_salesforcesso]]></DatFolderPath>
+	<UpdateTimeCheckOption><![CDATA[CHECK]]></UpdateTimeCheckOption>
+
+	<TargetFiles>
+		<FilePath><![CDATA[ajax.js]]></FilePath>
+		<FilePath><![CDATA[common.js]]></FilePath>
+		<FilePath><![CDATA[jkmegamenu.js]]></FilePath>
+		<FilePath><![CDATA[jquery.crossSelect.js]]></FilePath>
+		<FilePath><![CDATA[jquery.blockUI.js]]></FilePath>
+		<FilePath><![CDATA[json.js]]></FilePath>
+		<FilePath><![CDATA[prototype.js]]></FilePath>
+		<FilePath><![CDATA[ucfext.file.js]]></FilePath>
+		<FilePath><![CDATA[ucfext.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_acnt.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_acs.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_acsapply.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_acslog.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_acspagelog.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_operationlog.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_config.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_field.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_group.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_orgunit.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_profile.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_sharedbookmark.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_custommessage.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_customapplyform.js]]></FilePath><!-- // �[���\�����J�X�^�}�C�Y�Ή� -->
+		<FilePath><![CDATA[ucfext_mypagelink.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_generalsso.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_device.js]]></FilePath>	<!-- // �f�o�C�X�Ǘ� -->
+		<FilePath><![CDATA[ucfext_securitykey.js]]></FilePath>	<!-- // ATKEY�Ή� -->
+		<FilePath><![CDATA[ucfext_task.js]]></FilePath>
+		<FilePath><![CDATA[ucfext_dropbox.js]]></FilePath>
+		<FilePath><![CDATA[ucfext.strength.js]]></FilePath>
+		<FilePath><![CDATA[face.js]]></FilePath>
+		<FilePath><![CDATA[login.js]]></FilePath>
+		<FilePath><![CDATA[xmleditor.js]]></FilePath>
+		<FilePath><![CDATA[init_backstretch.js]]></FilePath>
+		<FilePath><![CDATA[llqrcode.js]]></FilePath>
+		<FilePath><![CDATA[qrcode.js]]></FilePath>
+		<FilePath><![CDATA[mypage.js]]></FilePath>
+		<FilePath><![CDATA[ext\PasswordStrength.js]]></FilePath>
+		<FilePath><![CDATA[ext\PopupGroupList.js]]></FilePath>
+		<FilePath><![CDATA[ext\PopupOrgUnitList.js]]></FilePath>
+		<FilePath><![CDATA[ext\SecurityKeyboard.js]]></FilePath>
+		<FilePath><![CDATA[ext\ucf_element_selector.js]]></FilePath>
+		<FilePath><![CDATA[ext\adapter.js]]></FilePath>
+		<FilePath><![CDATA[ext\adapter.screenshare.js]]></FilePath>
+		<FilePath><![CDATA[ext\pluginInfo.js]]></FilePath>
+		<FilePath><![CDATA[base64.js]]></FilePath>
+		<FilePath><![CDATA[fido.js]]></FilePath><!-- // ATKEY�Ή� -->
+		<FilePath><![CDATA[profilepageinit.js]]></FilePath>
+		<FilePath><![CDATA[lang\default.js]]></FilePath>
+		<FilePath><![CDATA[lang\ja.js]]></FilePath>
+		<FilePath><![CDATA[lang\en.js]]></FilePath>
+		<FilePath><![CDATA[lang\de.js]]></FilePath>
+		<FilePath><![CDATA[lang\es.js]]></FilePath>
+		<FilePath><![CDATA[lang\fr.js]]></FilePath>
+		<FilePath><![CDATA[lang\hi.js]]></FilePath>
+		<FilePath><![CDATA[lang\id.js]]></FilePath>
+		<FilePath><![CDATA[lang\ko.js]]></FilePath>
+		<FilePath><![CDATA[lang\pt.js]]></FilePath>
+		<FilePath><![CDATA[lang\sv.js]]></FilePath>
+		<FilePath><![CDATA[lang\ms.js]]></FilePath>
+		<FilePath><![CDATA[lang\th.js]]></FilePath>
+		<FilePath><![CDATA[lang\zh-cn.js]]></FilePath>
+		<FilePath><![CDATA[lang\zh-tw.js]]></FilePath>
+<!--
+		<FilePath><![CDATA[lang\fi.js]]></FilePath>
+		<FilePath><![CDATA[lang\it.js]]></FilePath>
+		<FilePath><![CDATA[lang\ru.js]]></FilePath>
+		<FilePath><![CDATA[lang\tl.js]]></FilePath>
+		<FilePath><![CDATA[lang\mn.js]]></FilePath>
+		<FilePath><![CDATA[lang\my.js]]></FilePath>
+		<FilePath><![CDATA[lang\vi.js]]></FilePath>
+-->
+	</TargetFiles>
+
+	<!-- ��ǉ��ɐ悾���ă��b�Z�[�W��`�t�@�C������JavaScript�t�@�C�����쐬 -->
+	<CreateLanguageJsFiles active="on" >
+		<LangDefineFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\lang]]></LangDefineFolderPath>
+		<JsOutputFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\script\debug\lang]]></JsOutputFolderPath>
+		<DefaultLanguage>ALL_ALL</DefaultLanguage>
+		<SemiDefaultLanguage>ja_ALL</SemiDefaultLanguage>
+		<JsFlagLanguage>ja_ALL</JsFlagLanguage><!-- �w�肷���js="on" �t���O�Ƃ��Ďw�茾��̐ݒ�����ׂĂ̌���t�@�C���ɓK�p 2019.07.11 -->
+		<TargetLanguages>
+			<Language js_file_name="default"><![CDATA[ja_ALL]]></Language>
+			<Language js_file_name="en" ><![CDATA[ALL_ALL]]></Language>
+			<Language js_file_name="ja" ><![CDATA[ja_ALL]]></Language>
+			<Language js_file_name="de"><![CDATA[de_ALL]]></Language>
+			<Language js_file_name="es"><![CDATA[es_ALL]]></Language>
+			<Language js_file_name="fr"><![CDATA[fr_ALL]]></Language>
+			<Language js_file_name="hi"><![CDATA[hi_ALL]]></Language>
+			<Language js_file_name="id"><![CDATA[id_ALL]]></Language>
+			<Language js_file_name="ko"><![CDATA[ko_ALL]]></Language>
+			<Language js_file_name="pt"><![CDATA[pt_ALL]]></Language>
+			<Language js_file_name="sv"><![CDATA[sv_ALL]]></Language>
+			<Language js_file_name="ms"><![CDATA[ms_ALL]]></Language>
+			<Language js_file_name="th"><![CDATA[th_ALL]]></Language>
+			<Language js_file_name="zh-cn"><![CDATA[zh_CN_ALL]]></Language>
+			<Language js_file_name="zh-tw"><![CDATA[zh_TW_ALL]]></Language>
+<!--
+			<Language js_file_name="fi"><![CDATA[fi_ALL]]></Language>
+			<Language js_file_name="it"><![CDATA[it_ALL]]></Language>
+			<Language js_file_name="ru"><![CDATA[ru_ALL]]></Language>
+			<Language js_file_name="tl"><![CDATA[tl_ALL]]></Language>
+			<Language js_file_name="mn"><![CDATA[mn_ALL]]></Language>
+			<Language js_file_name="my"><![CDATA[my_ALL]]></Language>
+			<Language js_file_name="vi"><![CDATA[vi_ALL]]></Language>
+-->
+		</TargetLanguages>
+	</CreateLanguageJsFiles>
+
+	<!-- ���b�Z�[�W��`�t�@�C�����烁�b�Z�[�W��`py�t�@�C�����쐬 -->
+	<CreateLanguagePyFile active="on" >
+		<LangDefineFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\lang]]></LangDefineFolderPath>
+		<PyOutputFilePath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\sateraito_message.py]]></PyOutputFilePath>
+		<DefaultLanguage>ALL_ALL</DefaultLanguage>
+		<SemiDefaultLanguage>ja_ALL</SemiDefaultLanguage>
+		<TargetLanguages>
+			<Language lang="en"><![CDATA[ALL_ALL]]></Language>
+			<Language lang="ja"><![CDATA[ja_ALL]]></Language>
+			<Language lang="de"><![CDATA[de_ALL]]></Language>
+			<Language lang="es"><![CDATA[es_ALL]]></Language>
+			<Language lang="fr"><![CDATA[fr_ALL]]></Language>
+			<Language lang="hi"><![CDATA[hi_ALL]]></Language>
+			<Language lang="id"><![CDATA[id_ALL]]></Language>
+			<Language lang="ko"><![CDATA[ko_ALL]]></Language>
+			<Language lang="pt"><![CDATA[pt_ALL]]></Language>
+			<Language lang="sv"><![CDATA[sv_ALL]]></Language>
+			<Language lang="ms"><![CDATA[ms_ALL]]></Language>
+			<Language lang="th"><![CDATA[th_ALL]]></Language>
+			<Language lang="zh-cn"><![CDATA[zh_CN_ALL]]></Language>
+			<Language lang="zh-tw"><![CDATA[zh_TW_ALL]]></Language>
+<!--
+			<Language lang="ko"><![CDATA[ko_ALL]]></Language>
+			<Language lang="pt"><![CDATA[pt_ALL]]></Language>
+			<Language lang="fr"><![CDATA[fr_ALL]]></Language>
+			<Language lang="es"><![CDATA[es_ALL]]></Language>
+			<Language lang="hi"><![CDATA[hi_ALL]]></Language>
+			<Language lang="sv"><![CDATA[sv_ALL]]></Language>
+			<Language lang="fi"><![CDATA[fi_ALL]]></Language>
+			<Language lang="de"><![CDATA[de_ALL]]></Language>
+			<Language lang="it"><![CDATA[it_ALL]]></Language>
+			<Language lang="id"><![CDATA[id_ALL]]></Language>
+			<Language lang="ru"><![CDATA[ru_ALL]]></Language>
+			<Language lang="tl"><![CDATA[tl_ALL]]></Language>
+			<Language lang="mn"><![CDATA[mn_ALL]]></Language>
+			<Language lang="my"><![CDATA[my_ALL]]></Language>
+			<Language lang="vi"><![CDATA[vi_ALL]]></Language>
+-->
+		</TargetLanguages>
+		<PyHeader>
+			<![CDATA[
+#!/usr/bin/python
+# coding: utf-8
+
+
+'''
+sateraito_message.py
+@author: Takayuki ASAO
+'''
+	
+]]>
+		</PyHeader>
+		<PyFooter>
+			<![CDATA[
+		]]>
+		</PyFooter>		
+	</CreateLanguagePyFile>
+
+	<!-- Jinja�e���v���[�g�́uinclude�v��W�J���ăR�s�[ -->
+	<ExpandJinjaTemplateIncludes active="on" >
+		<SrcTemplatesFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\templates]]></SrcTemplatesFolderPath>
+		<DstTemplatesFolderPath><![CDATA[D:\SATERAITO_PROJECT\WEB\03.SSO\MAIN\src\templates_automatically]]></DstTemplatesFolderPath>
+	</ExpandJinjaTemplateIncludes>
+
+	<!-- ������̒u���ݒ� -->
+	<ExchangeMessages>
+		<Item except_lang="" >
+			<Src><![CDATA[http://www.scollabo.com/banban/lectur/websafe.html]]></Src>
+			<Dst><![CDATA[https://www.colordic.org/colorsample]]></Dst>
+		</Item>
+
+		<Item except_lang="" >
+			<Src><![CDATA[http://www.ugtop.com/spill.shtml]]></Src>
+			<Dst><![CDATA[/ipcheck]]></Dst>
+		</Item>
+
+		<Item except_lang="" >
+			<Src><![CDATA[https://sate.work/]]></Src>
+			<Dst><![CDATA[https://surl.work/]]></Dst>
+		</Item>
+
+		<!-- verifycloud ��URL -->
+		<Item except_lang="" >
+			<Src><![CDATA[http://www.conexio.co.jp/biz/]]></Src>
+			<Dst><![CDATA[https://sol.conexio.co.jp/]]></Dst>
+		</Item>
+
+
+		<!-- Verifycloud �}�j���A�������N�ύX -->
+		<Item except_lang="" >
+			<Src><![CDATA[http://biz.conexio.co.jp/l/83462/2015-12-07/28q85q/83462/32097/verifycloud_Administrator_Manual_Ver1.0.pdf]]></Src>
+			<Dst><![CDATA[https://biz.conexio.co.jp/verifycloud_Administrator_Manual]]></Dst>
+		</Item>
+
+		<Item target_lang="ja,ja_ALL" >
+			<Src><![CDATA[__LOGINSYNCTARGETSERVICES__]]></Src>
+			<Dst><![CDATA[Google Workspace�ALINE WORKS�AMicrosoft 365�AWorkplace by Facebook�ASalesforce�ADropbox Business�ABox�AChatwork�AAWS�AAmazon�r�W�l�X�ASlack�ALARK�A�T�C�{�E�Y�K���[��/�L���g�[���A�f�X�N�l�b�cNEO�AActive! gate SS�ADirectCloudBox�ASugar CRM�AASANA�AARIBA�iSAP�j�AZendesk�AZoom�AGitHub�ADocusign�A�C���g���}�[�g�A�i���b�W�X�C�[�g�AZohoCRM/ZohoCreator�ASANSAN�AX-Point�A�y�y���Z�AShop���A�R���J�[�A�W���u�J���ASmartHR�AFreshWorks�ACIERTO�i�V�G���g�j�AMoconavi�ABigtincan Hub�APrimeDrive�AZscaler�ATableau�APHONE APPLI PEOPLE�i�A���Ƃ�邭��j�AZeem�AHUE�ACOMPANY�ACAIWA Service Viii�ADOMO�i��SKUID�j�A�^�����g�p���b�g�ATimes�AWellspring�A�J�I�i�r�A�V���`�n�^�N���E�h�AWAN-Sign�AAWS Client VPN�AInsuite�ASmartDB�Ae�Z�[���X�}�l�[�W���[�A�@�Ӕ��AAtlassian Access�AQast�AoVice�AAdobe Admin Console�ASplashtop�A���[���f�B�[���[�Adatadog�AFortigate SSLVPN�ACyberMail��/ MailBase���ALumApps�A���V�[�g�|�X�g�A�}�l�[�t�H���[�h�AGitHub�Abacklog�A�R���{�t���[�ABill One�AManageOZO3�ANI Collabo�AConnectWise�ABtoB�v���b�g�t�H�[���ADenodo�ACoursebase�AHotProfile�ACitrix Cloud�ACitrix Secure Internet Access�AOBPM Neo�AActive Portal�A�y�XWorkflow�U�ASmoothFile�AAmazon AppStream 2.0�A��s�N���E�h�ACortex XDR�AMajor Flow Z�AIvanti Neurons for ITSM�AOBPM Neo�ACreate!Web�t���[�AFind���[�N�t���[�AJUST.SFA�A�N���E�h�T�C���ALychee Redmine�Am-FILTER�ALinkedIn���[�j���O�ACloud Identity Engine�APrivate Access�AGlobal Protect�AJooto�i�W���[�g�[�j�APKSHA FAQ�A�T�C�o�[���[�Y���iCybereason�j�AKingOfTime�A�{�H�Ǘ��A�v��ANDPAD�ACoupa�AMA-EYES�AClipkit�ASHANON MARKETING PLATFORM(SMP)�AQuollio�ASecureNavi�AKeeper Security�ACloudflare Zero Trust�A�N���W�J�X�P�W���[���Ǘ��AChronowis�i�N���m�E�B�Y�j�ABYARD�ALOGOSWARE Libra V�AENTERPRISEAUDIT ���AQuickSolution�AApache Guacamole�ADigiPro�ACisco Meraki�A���X���i�C�Adirect�AAWS IAM Identity Center�Acoorum�A�Y�p�V���O���T�C���I���F�؁A�Z�L�����I�ASmartDrive Fleet�ASMILEVISA�AWasabi Hot Cloud Storage�AActionPassport�AKiteRa�ALegalOnCloud]]></Dst>
+		</Item>
+
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[__LOGINSYNCTARGETSERVICES__]]></Src>
+			<Dst><![CDATA[Google Workspace, LINE WORKS, Microsoft 365, Workplace by Facebook, Salesforce, Dropbox Business, Box, Chatwork, AWS, Amazon Business, Slack, LARK, Cybozu Garoon/Kintone, Desknet's NEO, Active! gate SS, DirectCloudBox, Sugar CRM, ASANA, ARIBA/SAP, Zendesk, Zoom, GitHub, Docusign, intra-mart, Knowledge Suite, ZohoCRM/ZohoCreator, SANSAN, X-Point, RakurakuSeisan, Shoprun, Concure, Jobcan, SmartHR, FreshWorks, CIERTO, Moconavi, Bigtincan Hub, PrimeDrive, Zscaler, Tableau, PHONE APPLI PEOPLE, Zeem, HUE, COMPANY, CAIWA Service Viii, DOMO/SKUID, Talent-Palette, Times, Wellspring, Kaonavi, Shachiahta Cloud, WAN-Sign, AWS Client VPN, Insuite, SmartDB, eSalesManger, Nyoibox, Atlassian Access, Qast, oVice, Adobe Admin Console, Splashtop, Mail Dealer, datalog, Fortigate SSLVPN, CyberMail��/ MailBase��, LumApps, RECEIPT POST, Money Forward, GitHub, backlog, collabo flow, Bill One, ManageOZO3, NI Collabo, ConnectWise, BtoB Platform, Denodo, Coursebase, HotProfile, Citrix Cloud, Citrix Secure Internet Access, OBPM Neo, Active Portal, Rakuraku Workflow�U, SmoothFile, Amazon AppStream 2.0, Bugyo Cloud, Cortex XDR, Major Flow Z, Ivanti Neurons for ITSM, OBPM Neo, Create!Web Flow, Find Workflow, JUST.SFA, CloudSign, Lychee Redmine, m-FILTER, LinkedIn Learning, Cloud Identity Engine, Private Access, Global Protect, Jooto, PKSHA FAQ, Cybereason, KingOfTime, ANDPAD, Coupa, MA-EYES, Clipkit, SHANON MARKETING PLATFORM(SMP), Quollio, SecureNavi, Keeper Security, Cloudflare Zero Trust, Kurojika, Chronowis, BYARD, LOGOSWARE Libra V, ENTERPRISEAUDIT ��, QuickSolution, Apache Guacamole, DigiPro, Cisco Meraki, Wasurenai, direct, AWS IAM Identity Center, coorum, e-reverse.com, Seculio, SmartDrive Fleet, SMILEVISA, Wasabi Hot Cloud Storage, ActionPassport, KiteRa, LegalOnCloud]]></Dst>
+		</Item>
+
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[14 3b 37 52 3a 86 01 75 e4 bb 67 7a 52 de af 46]]></Src>
+			<Dst><![CDATA[3e 8f 03 fc 74 7e a8 35 fc 2e d2 b9 df c7 a1 d8 74 51 16 a2]]></Dst>
+		</Item>
+
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[88px*88px]]></Src>
+			<Dst><![CDATA[150px*150px]]></Dst>
+		</Item>
+
+		<!-- ���w���v���V�w���v -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://goo.gl/8D5QyQ]]></Src>
+			<Dst><![CDATA[https://shurl.jp/4WdTC]]></Dst>
+		</Item>
+
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://shurl.jp/3O7t]]></Src>
+			<Dst><![CDATA[https://shurl.jp/6Erct]]></Dst>
+		</Item>
+
+		<!-- �p��Ńw���v -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://goo.gl/P1I2mV]]></Src>
+			<Dst><![CDATA[https://shurl.jp/5RcEv]]></Dst>
+		</Item>
+
+		<!-- �p��ŗ��p�K��iWorkplace�p�j -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://goo.gl/KPRl33]]></Src>
+			<Dst><![CDATA[https://shurl.jp/2sA8Z]]></Dst>
+		</Item>
+		<!-- �p��ŗ��p�K��iDropbox Business�p�j -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://goo.gl/ivV2kJ]]></Src>
+			<Dst><![CDATA[https://shurl.jp/4OpFA]]></Dst>
+		</Item>
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://goo.gl/7Be25l]]></Src>
+			<Dst><![CDATA[https://shurl.jp/2ylgQ]]></Dst>
+		</Item>
+
+		<Item>
+			<Src><![CDATA[https://goo.gl/9jc2u9]]></Src>
+			<Dst><![CDATA[https://shurl.jp/UHSX]]></Dst>
+		</Item>
+
+		<Item>
+			<Src><![CDATA[https://goo.gl/M9PSBg]]></Src>
+			<Dst><![CDATA[https://shurl.jp/1qii]]></Dst>
+		</Item>
+		<Item>
+			<Src><![CDATA[https://surl.work/1ENE]]></Src>
+			<Dst><![CDATA[https://shurl.jp/2ylgQ]]></Dst>
+		</Item>
+		<Item>
+			<Src><![CDATA[https://surl.work/4E9Y]]></Src>
+			<Dst><![CDATA[https://shurl.jp/2sA8Z]]></Dst>
+		</Item>
+		<Item>
+			<Src><![CDATA[https://surl.work/30jS]]></Src>
+			<Dst><![CDATA[https://shurl.jp/1qii]]></Dst>
+		</Item>
+		<Item>
+			<Src><![CDATA[https://surl.work/2TVu]]></Src>
+			<Dst><![CDATA[https://shurl.jp/4OpFA]]></Dst>
+		</Item>
+		<Item>
+			<Src><![CDATA[https://surl.work/41dv]]></Src>
+			<Dst><![CDATA[https://shurl.jp/UHSX]]></Dst>
+		</Item>
+
+
+		<!-- �F�R�[�h -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[http://www.scollabo.com/banban/lectur/websafe.html]]></Src>
+			<Dst><![CDATA[http://www.scollabo.com/banban/lectur/websafe.html]]></Dst>
+		</Item>
+		<!-- �m�F���� -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[http://www.ugtop.com/spill.shtml]]></Src>
+			<Dst><![CDATA[http://www.ugtop.com/spill.shtml]]></Dst>
+		</Item>
+		<!-- �z�[���y�[�W -->
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[http://www.sateraito.jp]]></Src>
+			<Dst><![CDATA[http://www.sateraito-global.com]]></Dst>
+		</Item>
+<!--
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://sites.google.com/a/sateraito.jp/sateraito-dounyuu/Home/sso-ex/]]></Src>
+			<Dst><![CDATA[https://sites.sateraito.jp/sateraitooffice/site/manual-en/home/sso-ex/]]></Dst>
+		</Item>
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://sites.google.com/a/sateraito.jp/sateraito-dounyuu/Home/sso-ex#]]></Src>
+			<Dst><![CDATA[https://sites.sateraito.jp/sateraitooffice/site/manual-en/home/sso-ex#]]></Dst>
+		</Item>
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://sites.google.com/a/sateraito.jp/sateraito-dounyuu/Home/sso-ex]]></Src>
+			<Dst><![CDATA[https://sites.sateraito.jp/sateraitooffice/site/manual-en/home/sso-ex]]></Dst>
+		</Item>
+		<Item except_lang="ja,ja_ALL" >
+			<Src><![CDATA[https://sites.google.com/a/sateraito.jp/sateraito-dounyuu/Home]]></Src>
+			<Dst><![CDATA[https://sites.sateraito.jp/sateraitooffice/site/manual-en/home]]></Dst>
+		</Item>
+-->
+	</ExchangeMessages>
+
+
+	<!-- �e�탁�[�����M�ݒ� -->
+	<MailInfo>
+		<!-- �����������Ǘ��҃��[�� -->
+		<SyncManageMail active="off" template_path="" />
+	</MailInfo>
+
+	<!-- �e��I�v�V�����ݒ� -->
+	<Options>
+
+	</Options>
+
+
+
+</Ucf>
